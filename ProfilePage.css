@@ -33,7 +33,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    margin-inline: 15%;
+    margin-inline: 25vw;
   }
 
   .grid-container {
@@ -48,6 +48,9 @@
     .grid-container{
       grid-template-columns: 1fr 1fr;
       margin-inline: 10%;
+    }
+    .grid-container-spoc{
+      margin-inline: 20%;
     }
   }
   @media (max-width: 768px) {
@@ -428,4 +431,45 @@ header{
 /* navbar end */
 
 
+/* Footer */
 
+
+
+footer {
+
+
+  background: #111;
+
+  height: auto;
+
+  width: 100%;
+
+  margin-top: 20px;
+
+  color: #fff;
+}
+
+.footer-bottom {
+  background: #000;
+
+  width: 100%;
+
+  text-align: center;
+}
+
+.footer-bottom p a {
+  color: #ccc;
+
+  font-size: 16px;
+
+  text-decoration: none;
+}
+
+
+@media (max-width: 500px) {
+  .footer-bottom p {
+    float: none;
+  }
+}
+
+/* footer end */
